@@ -16,12 +16,18 @@ public class Menu {
     }
 
     public OpcaoMenu leOpcaoValida(ArrayList<OpcaoMenu> listaOpcoes) {
-        do {
+        OpcaoMenu opcaoRetorno = null;
+        //
+        do
+        {
             console.escreveConsole("Digite opção: ");
             Integer opcaoDigitada = console.leNumeroInteiro();
 
 
 
-        } while (true);
+        }
+        while (opcaoRetorno == null);
+        //
+        return opcaoRetorno;
     }
 }
