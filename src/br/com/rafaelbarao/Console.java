@@ -6,26 +6,27 @@ public class Console {
     private Scanner scanner;
 
     public Console() {
-        scanner = new Scanner(System.in);
-    }
-
-    public String leTextoDigitado() {
-        return scanner.nextLine();
+        this.scanner = new Scanner(System.in);
     }
 
     public Integer leNumeroInteiro() {
-        Integer valorLido = scanner.nextInt();
+        Integer numeroLido = scanner.nextInt();
         scanner.nextLine();
-        return valorLido;
+        return numeroLido;
     }
 
     public Double leNumeroDouble() {
-        Double valorLido = scanner.nextDouble();
+        Double numeroLido = scanner.nextDouble();
         scanner.nextLine();
-        return valorLido;
+        return numeroLido;
+    }
+
+    public String leLinhaTexto() {
+        return scanner.nextLine();
     }
 
     public void escreveConsole(String texto) {
         System.out.println(texto);
     }
+
 }
