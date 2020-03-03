@@ -43,4 +43,14 @@ public class Menu {
         imprimeMenu(listaOpcoes);
         return leOpcaoValida(listaOpcoes);
     }
+
+    private String nomeMenu;
+
+    public String getNomeMenu() {
+        return nomeMenu;
+    }
+
+    public void setNomeMenu(String nomeMenu) {
+        this.nomeMenu = nomeMenu;
+    }
 }
