@@ -1,4 +1,4 @@
-package br.com.rafaelbarao;
+package br.com.rafaelbarao.cadastroalunos;
 
 public class OpcaoMenu {
     private Integer opcao;

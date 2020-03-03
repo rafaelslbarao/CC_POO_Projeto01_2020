@@ -1,4 +1,4 @@
-package br.com.rafaelbarao;
+package br.com.rafaelbarao.pacote1;
 
 public class Marca {
     String nome;

@@ -1,4 +1,4 @@
-package br.com.rafaelbarao;
+package br.com.rafaelbarao.cadastroalunos;
 
 import java.util.Scanner;
 
