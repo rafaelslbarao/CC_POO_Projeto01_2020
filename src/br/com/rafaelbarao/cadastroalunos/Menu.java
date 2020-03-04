@@ -13,9 +13,13 @@ public class Menu {
     }
 
     private void imprimeMenu(ArrayList<OpcaoMenu> listaOpcoes) {
+        console.escreveConsole("");
+        console.escreveConsole("#######################");
+        //
         for (OpcaoMenu opcaoMenu : listaOpcoes) {
             console.escreveConsole(opcaoMenu.getLayoutImpressao());
         }
+        console.escreveConsole("");
     }
 
     private OpcaoMenu leOpcaoValida(ArrayList<OpcaoMenu> listaOpcoes) {
