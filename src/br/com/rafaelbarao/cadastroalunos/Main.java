@@ -57,8 +57,10 @@ public class Main {
                     alunoControlador.cadastraAluno();
                     break;
                 case 2:
+                    alunoControlador.excluiAluno();
                     break;
                 case 3:
+                    alunoControlador.editaAluno();
                     break;
                 case 4:
                     abreMenuRelatorios();
@@ -75,8 +77,10 @@ public class Main {
             //
             switch (menuSelecionado.getOpcao().intValue()) {
                 case 1:
+                    alunoControlador.imprimeRelatorioCodigos();
                     break;
                 case 2:
+                    alunoControlador.imprimeRelatorioNomes();
                     break;
             }
         }

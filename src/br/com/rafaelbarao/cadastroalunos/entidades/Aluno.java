@@ -27,4 +27,17 @@ public class Aluno {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    @Override
+    public boolean equals(Object objetoComparacao) {
+        if (this.getCodigo().equals(((Aluno) objetoComparacao).getCodigo()))
+            return true;
+        else
+            return false;
+    }
+
+    @Override
+    public String toString() {
+        return getNome();
+    }
 }
